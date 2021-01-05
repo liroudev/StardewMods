@@ -72,7 +72,7 @@
     "shop.marnie": "Marnie",
     "shop.pierre": "Pierre",
     "shop.robin": "Robin",
-    "shop.volcano": "volcano shop", // TODO
+    "shop.volcano": "Loja do Vulcão", // DONE
     "shop.willy": "Willy",
 
     // recipe types
@@ -113,7 +113,7 @@
     "data.item.ice-crystal.description": "Um cristal de gelo sem descrição. Tem uma chance bem pequena de colher Quartzo Refinado.",
 
     // mine gems
-    "data.item.amethyst-node.name": "Ametistas aglomeradas",
+    "data.item.amethyst-node.name": "Aglomerado de Ametista", // DONE
     "data.item.amethyst-node.description": "Quebre-a para obter ametista.",
     "data.item.aquamarine-node.name": "Aglomerado de Água-Marinha",
     "data.item.aquamarine-node.description": "Quebre-a para obter água-marinha.",
@@ -135,8 +135,8 @@
     "data.item.topaz-node.description": "Quebre-a para coletar topaz.",
 
     // mine ores
-    "data.item.cinder-shard-node.name": "Cinder Shard Node", // TODO
-    "data.item.cinder-shard-node.description": "Break apart to obtain cinder shards.", // TODO
+    "data.item.cinder-shard-node.name": "Aglomerado de Cinza", // DONE
+    "data.item.cinder-shard-node.description": "Quebre-o para obter fragmentos de cinza", // DONE
     "data.item.copper-node.name": "Aglomerado de Cobre",
     "data.item.copper-node.description": "Quebre-a para coletar minérios de cobre.",
     "data.item.gold-node.name": "Aglomerado de Ouro",
@@ -144,22 +144,22 @@
     "data.item.iridium-node.name": "Aglomerado de Irídio",
     "data.item.iridium-node.description": "Quebre-a para receber minérios de irídio.",
     "data.item.iron-node.name": "Aglomerado de Ferro",
-    "data.item.iron-node.description": "Quebre-a pra receber minérios de ferro.",
-    "data.item.omni-geode-node.name": "Omni Geode Node", // TODO
-    "data.item.omni-geode-node.description": "Break apart to obtain an omni geode.", // TODO
+    "data.item.iron-node.description": "Quebre-a para receber minérios de ferro.", // DONE
+    "data.item.omni-geode-node.name": "Aglomerado de Omni Geodo", // DONE
+    "data.item.omni-geode-node.description": "Quebre-o para obter Omni Geodo", // DONE
 
     // mine stones
     "data.item.colored-stone.name": "Rocha Colorida",
-    "data.item.colored-stone.description": "Uma rocha indescritível. Talvez possa conter pedras, minérios, ou geodos.",
+    "data.item.colored-stone.description": "Uma rocha indescritível. Possui a chance de conter pedras, minérios, ou geodos.", // DONE
     "data.item.mine-stone.name": "Pedra",
-    "data.item.mine-stone.description": "Break apart to obtain stone with a chance of coal.", // TODO
+    "data.item.mine-stone.description": "Quebre-a para obter Pedra. Possui a chance de conter Carvão", // DONE
 
     // other stones
-    // TODO
-    "data.item.clay-stone.name": "Clay Stone",
-    "data.item.clay-stone.description": "Break apart to obtain clay.",
-    "data.item.fossil-stone.name": "Fossil Stone",
-    "data.item.fossil-stone.description": "Break apart to obtain fossils and bones.",
+    // DONE
+    "data.item.clay-stone.name": "Pedra de Argila", // DONE
+    "data.item.clay-stone.description": "Quebre-a para receber Argila", // DONE
+    "data.item.fossil-stone.name": "Pedra de Fóssil", // DONE
+    "data.item.fossil-stone.description": "Quebre-a para receber Fóssil ou Ossos", // DONE
 
     // mine containers
     "data.item.barrel.name": "Barríl",
@@ -325,8 +325,8 @@
     // labels
     "crop.summary": "Plantação",
     "crop.harvest": "Próxima colheita",
-    "crop.fertilized": "Fertilized", // TODO
-    "crop.watered": "Watered", // TODO
+    "crop.fertilized": "Adubado", // DONE
+    "crop.watered": "Regado", // DONE
 
     // values
     "crop.summary.dead": "Esta planta está morta.",
@@ -567,53 +567,53 @@
     ** Puzzles
     *********/
     // labels
-    // TODO
-    "puzzle.solution": "Solution",
+    // DONE
+    "puzzle.solution": "Solução", // DONE
 
     // values
-    // TODO
-    "puzzle.solution.solved": "Puzzle solved!",
-    "puzzle.solution.hidden": "Puzzle solutions are hidden in progression mode.",
+    // DONE
+    "puzzle.solution.solved": "Enigma Resolvido!", // DONE
+    "puzzle.solution.hidden": "As soluções dos enigmas estão escondidas no modo de progressão", // DONE
 
 
     /*********
     ** Puzzles > Fern Islands crystal cave
     *********/
     // labels
-    // TODO
-    "puzzle.island-crystal-cave.title": "Crystal Cave Puzzle",
-    "puzzle.island-crystal-cave.crystal-id": "Crystal ID",
+    // DONE
+    "puzzle.island-crystal-cave.title": "Caverna do Enigma de Cristal", // DONE
+    "puzzle.island-crystal-cave.crystal-id": "Cristal ID", // DONE
 
     // values
-    // TODO
-    "puzzle.island-crystal-cave.solution.not-activated": "Activate the statue to start the puzzle.",
-    "puzzle.island-crystal-cave.solution.waiting": "Waiting for game to generate sequence...",
-    "puzzle.island-crystal-cave.solution.activated": "Repeat the pattern of activated crystals:",
+    // DONE
+    "puzzle.island-crystal-cave.solution.not-activated": "Ative a estátua para começar o enigma.", // DONE
+    "puzzle.island-crystal-cave.solution.waiting": "Aguardando o jogo gerar a sequência...", // DONE
+    "puzzle.island-crystal-cave.solution.activated": "Repita o padrão de ativação dos cristais:", // DONE
 
 
     /*********
     ** Tile lookups > Fern Islands mermaid puzzle
     *********/
     // labels
-    // TODO
-    "puzzle.island-mermaid.title": "Island Mermaid Puzzle",
-    "puzzle.island-mermaid.solution.intro": "Use flute blocks to play the Night Market mermaid song. Pitch values (you can lookup a flute block to see its pitch):",
+    // DONE
+    "puzzle.island-mermaid.title": "Ilha do Enigma da Sereia", // DONE
+    "puzzle.island-mermaid.solution.intro": "Use o blocos musicais para tocar a música do Mercado Noturno da Sereia. Tons da música (você pode procurar pelos blocos músicais para saber seu tom):", // DONE
 
 
     /*********
     ** Puzzles > Fern Islands shrine puzzle
     *********/
     // labels
-    // TODO
-    "puzzle.island-shrine.title": "Island Shrine Puzzle",
-    "puzzle.island-shrine.description": "For each pedestal, place the item dropped by gem birds in the corresponding island location when it rains. The items are randomized for each save.",
+    // DONE
+    "puzzle.island-shrine.title": "Ilha do Enigama do Santuário", // DONE
+    "puzzle.island-shrine.description": "Para cada pedestal, coloque o item dropado pelo pássaro gema em seu correspondente local na ilha quando chove place the item dropped by gem birds in the corresponding island location when it rains. O itens são aletórios para cada save.", // DONE
 
     // values
-    // TODO
-    "puzzle.island-shrine.solution.east": "East: {{item}}",
-    "puzzle.island-shrine.solution.north": "North: {{item}}",
-    "puzzle.island-shrine.solution.south": "South: {{item}}",
-    "puzzle.island-shrine.solution.west": "West: {{item}}",
+    // DONE
+    "puzzle.island-shrine.solution.east": "Leste: {{item}}", // DONE
+    "puzzle.island-shrine.solution.north": "Note: {{item}}", // DONE
+    "puzzle.island-shrine.solution.south": "Sul: {{item}}", // DONE
+    "puzzle.island-shrine.solution.west": "Oeste: {{item}}", // DONE
 
 
     /*********
@@ -652,7 +652,7 @@
 
     // values
     "tree.name.big-mushroom": "Cogumelo gigante",
-    "tree.name.mahogany": "Mahogany Tree", // TODO
+    "tree.name.mahogany": "Árvore de Mogno", // DONE
     "tree.name.maple": "Árvore de Ácer",
     "tree.name.oak": "Carvalho",
     "tree.name.palm": "Palmeira",
